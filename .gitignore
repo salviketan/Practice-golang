@@ -1,0 +1,35 @@
+# ==========================================
+# Go Binaries & Plugins
+# ==========================================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# If you build binaries directly into a bin/ folder
+bin/
+
+# ==========================================
+# Testing & Coverage
+# ==========================================
+# Test binaries created by 'go test -c'
+*.test
+
+# Output of the go coverage tool (e.g., -coverprofile=coverage.out)
+*.out
+*.prof
+
+# ==========================================
+# Go Workspaces (Go 1.18+)
+# ==========================================
+# Local workspace files (useful if developers use go.work locally)
+go.work
+go.work.sum
+
+# ==========================================
+# Dependencies (Optional)
+# ==========================================
+# Uncomment the line below if you prefer NOT to track your vendor folder 
+# (By default, modern Go tracks vendor/ if checked in, but many ignore it)
+# vendor/
